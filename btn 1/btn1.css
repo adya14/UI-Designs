@@ -1,0 +1,36 @@
+.button {
+    width: fit-content;
+    display: flex;
+    padding: 0.9em 1.9em;
+    gap: 0.4rem;
+    font-weight: bold;
+    border-radius: 20px;
+    background: linear-gradient(15deg, #f18df1, #ffabd6, #f8a6aa, #fcba9c, #f7c98d, #fabea2, #fd969b, #fca0cf, #f8abf8) no-repeat;
+    background-size: 700%;
+    background-position: bottom;
+    transition: background .3s ease;
+    color: #464039;
+    border: none;
+  }
+  
+  .button:hover {
+    background-size: 320%;
+    background-position: right center;
+    color: #fff;
+    transition: 0.3s;
+    transform: translateY(-2px);
+    box-shadow: 0px 6px 0px #686159;
+  }
+  
+  .button:hover svg {
+    fill: #fff;
+  }
+  
+  .button svg {
+    width: 23px;
+    fill: #464039;
+    transition: .3s ease;
+  }
+  
+  
+  
